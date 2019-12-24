@@ -288,8 +288,8 @@
     .advantages__item-title {
       color: $green;
     }
-    .advantages__item-images{
-      g{
+    .advantages__item-images {
+      g {
         fill: #fff;
       }
     }
@@ -319,7 +319,7 @@
 .icosvg-1 {
   svg {
     width: 50px;
-    g{
+    g {
       transition: all 0.5s;
     }
   }
@@ -327,7 +327,7 @@
 .icosvg-2 {
   svg {
     width: 71px;
-    g{
+    g {
       transition: all 0.5s;
     }
   }
@@ -335,8 +335,48 @@
 .icosvg-3 {
   svg {
     width: 86px;
-    g{
+    g {
       transition: all 0.5s;
     }
   }
 }
+//end advantages
+//start author
+
+.author {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 761px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box {
+    /* Style for "Rectangle" */
+    max-width: 653px;
+    width: 100%;
+    min-height: 216px;
+    background-color: $green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title{
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 45px;
+    max-width: 262px;
+    span{
+      @include f700;
+    }
+  }
+  &__link{
+    font-size: 18px;
+    line-height: 36px;
+    padding: 14px 40px;
+    background-color: #fff;
+  }
+}
+
+//end author
