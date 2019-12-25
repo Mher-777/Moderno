@@ -376,6 +376,10 @@
     line-height: 36px;
     padding: 14px 40px;
     background-color: #fff;
+    transition: .3s all;
+    &:hover{
+       color: $green;
+    }
   }
 }
 
